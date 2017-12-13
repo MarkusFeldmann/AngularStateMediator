@@ -1,0 +1,37 @@
+<nav class="navbar navbar-light navbar-expand-sm bg-light">
+  <ul class="navbar-nav">
+    <li class="navbar-nav">
+      <a class="navbar-brand">&nbsp;</a>
+    </li>
+    <li class="navbar-nav">
+      <a class="nav-item nav-link active">Home</a>
+    </li>
+    <li class="navbar-nav">
+      <a class="nav-item nav-link">Products</a>
+    </li>
+    <li class="navbar-nav">
+      <a class="nav-item nav-link">About Us</a>
+    </li>
+  </ul>
+</nav>
+<div id="mySideNav" class="sidenav">
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">Client</a>
+  <a href="#">Contact</a>
+</div>
+<div id="main" class="main-content-panel">
+  <div class="row">
+    <div class="col-sm-1">
+      <button class="btn button-no-borders" (click)="showHideSideClicked()">
+        <span id="show-hide-side-button" class="fa"><</span>
+      </button>
+    </div>
+    <div class="col-sm-11">
+      <div class="row-content-header">{{title}}</div>
+    </div>
+  </div>
+  <div class="main-content">
+    <button class="btn btn-primary" (click)="buttonClickedDetail()">detail</button>
+  </div>
+</div>

@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{096F4877-D976-4AF7-9892-F8BB330B7370}"
+	ProjectSection(SolutionItems) = preProject
+		Angular-State-Mediator\.angular-cli.json = Angular-State-Mediator\.angular-cli.json
+		Angular-State-Mediator\.editorconfig = Angular-State-Mediator\.editorconfig
+		Angular-State-Mediator\.gitignore = Angular-State-Mediator\.gitignore
+		Angular-State-Mediator\karma.conf.js = Angular-State-Mediator\karma.conf.js
+		Angular-State-Mediator\package-lock.json = Angular-State-Mediator\package-lock.json
+		Angular-State-Mediator\package.json = Angular-State-Mediator\package.json
+		Angular-State-Mediator\protractor.conf.js = Angular-State-Mediator\protractor.conf.js
+		Angular-State-Mediator\README.md = Angular-State-Mediator\README.md
+		Angular-State-Mediator\tsconfig.json = Angular-State-Mediator\tsconfig.json
+		Angular-State-Mediator\tslint.json = Angular-State-Mediator\tslint.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AEE6730F-687B-4A68-AFFE-66A2DB5534F9}"
+	ProjectSection(SolutionItems) = preProject
+		Angular-State-Mediator\src\favicon.ico = Angular-State-Mediator\src\favicon.ico
+		Angular-State-Mediator\src\index.html = Angular-State-Mediator\src\index.html
+		Angular-State-Mediator\src\main.ts = Angular-State-Mediator\src\main.ts
+		Angular-State-Mediator\src\polyfills.ts = Angular-State-Mediator\src\polyfills.ts
+		Angular-State-Mediator\src\styles.css = Angular-State-Mediator\src\styles.css
+		Angular-State-Mediator\src\test.ts = Angular-State-Mediator\src\test.ts
+		Angular-State-Mediator\src\tsconfig.app.json = Angular-State-Mediator\src\tsconfig.app.json
+		Angular-State-Mediator\src\tsconfig.spec.json = Angular-State-Mediator\src\tsconfig.spec.json
+		Angular-State-Mediator\src\typings.d.ts = Angular-State-Mediator\src\typings.d.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{F2C0EF36-CE2C-4343-BF53-8DEC709685E7}"
+	ProjectSection(SolutionItems) = preProject
+		Angular-State-Mediator\src\app\app.component.css = Angular-State-Mediator\src\app\app.component.css
+		Angular-State-Mediator\src\app\app.component.html = Angular-State-Mediator\src\app\app.component.html
+		Angular-State-Mediator\src\app\app.component.spec.ts = Angular-State-Mediator\src\app\app.component.spec.ts
+		Angular-State-Mediator\src\app\app.component.ts = Angular-State-Mediator\src\app\app.component.ts
+		Angular-State-Mediator\src\app\app.module.ts = Angular-State-Mediator\src\app\app.module.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{BA862B42-96E3-41B7-9B4E-D7097DBD4341}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "environments", "environments", "{937E9227-D21B-4808-9397-91D4F784F596}"
+	ProjectSection(SolutionItems) = preProject
+		Angular-State-Mediator\src\environments\environment.prod.ts = Angular-State-Mediator\src\environments\environment.prod.ts
+		Angular-State-Mediator\src\environments\environment.ts = Angular-State-Mediator\src\environments\environment.ts
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEE6730F-687B-4A68-AFFE-66A2DB5534F9} = {096F4877-D976-4AF7-9892-F8BB330B7370}
+		{F2C0EF36-CE2C-4343-BF53-8DEC709685E7} = {AEE6730F-687B-4A68-AFFE-66A2DB5534F9}
+		{BA862B42-96E3-41B7-9B4E-D7097DBD4341} = {AEE6730F-687B-4A68-AFFE-66A2DB5534F9}
+		{937E9227-D21B-4808-9397-91D4F784F596} = {AEE6730F-687B-4A68-AFFE-66A2DB5534F9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99E8E454-4ADC-4B6E-A827-868B42EAE0CB}
+	EndGlobalSection
+EndGlobal
