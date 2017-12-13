@@ -29,4 +29,5 @@ export class AppComponent {
     document.getElementById('myRightScreen').style.transform = "translateX(100%)";
     document.getElementById('main').style.transform = "translateX(0%)";
   }
+  //changed
 }
