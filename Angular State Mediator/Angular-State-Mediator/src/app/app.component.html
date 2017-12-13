@@ -14,12 +14,23 @@
     </li>
   </ul>
 </nav>
+
 <div id="mySideNav" class="sidenav">
   <a href="#">About</a>
   <a href="#">Services</a>
   <a href="#">Client</a>
   <a href="#">Contact</a>
 </div>
+
+<div id="myRightScreen" class="overlay">
+  <button class="btn button-no-borders" (click)="closeClicked()">
+    <span class="fa fa-chevron-left">></span>
+  </button>
+  <div class="overlay-content">
+    <h1>Page 2</h1>
+  </div>
+</div>
+
 <div id="main" class="main-content-panel">
   <div class="row">
     <div class="col-sm-1">

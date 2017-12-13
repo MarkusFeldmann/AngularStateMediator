@@ -8,6 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Angular-State-Mediator\.angular-cli.json = Angular-State-Mediator\.angular-cli.json
 		Angular-State-Mediator\.editorconfig = Angular-State-Mediator\.editorconfig
 		Angular-State-Mediator\.gitignore = Angular-State-Mediator\.gitignore
+		Angular-State-Mediator\node_modules\bootstrap\dist\css\bootstrap.min.css = Angular-State-Mediator\node_modules\bootstrap\dist\css\bootstrap.min.css
 		Angular-State-Mediator\karma.conf.js = Angular-State-Mediator\karma.conf.js
 		Angular-State-Mediator\package-lock.json = Angular-State-Mediator\package-lock.json
 		Angular-State-Mediator\package.json = Angular-State-Mediator\package.json

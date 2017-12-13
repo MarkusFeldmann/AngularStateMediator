@@ -19,4 +19,16 @@ export class AppComponent {
       this.isSIdeNavVisible = true;
     }
   }
+
+  buttonClickedDetail() {
+    document.getElementById('myRightScreen').style.transform = "translateX(0%)";
+    document.getElementById('main').style.transform = "translateX(-100%)";
+  }
+
+  closeClicked() {
+    document.getElementById('myRightScreen').style.transform = "translateX(100%)";
+    document.getElementById('main').style.transform = "translateX(0%)";
+  }
+
+  added() { }
 }
