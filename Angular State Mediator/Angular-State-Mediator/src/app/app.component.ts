@@ -39,7 +39,7 @@ export class MainPanelOnly
   getStateType(): StateType {
     return StateType.MainPanelOnly;
   }
-  getPanelButtonClass(): string { return 'fa-chevronright'; }
+  getPanelButtonClass(): string { return 'fa-chevron-right'; }
   isSideNavVisible(): boolean { return false; }
 }
 
@@ -49,7 +49,7 @@ export class MainPanelWithSideNav
   getStateType(): StateType {
     return StateType.MainPanelWithSideNav;
   }
-  getPanelButtonClass(): string { return 'fa-chevronleft'; }
+  getPanelButtonClass(): string { return 'fa-chevron-left'; }
   isSideNavVisible(): boolean { return true; }
 }
 export class DetailPanel implements IState {
@@ -120,6 +120,19 @@ export class Mediator {
       this._currentMainPanelState = this._currentState;
     }
   }
+
+  showHideSideNavClicked() {
+    switch (this._currentState.getStateType()) {
+      case StateType.MainPanelOnly: {
+        this.moveToState(StateType.MainPanelWithSideNav);
+        break;
+      }
+      case StateType.MainPanelWithSideNav: {
+        this.moveToState(StateType.MainPanelOnly);
+        break;
+      }
+    }
+  }
 }
 
 @Component({
@@ -147,6 +160,10 @@ export class AppComponent implements IMediatorImpl, AfterViewInit {
 
   buttonClickedDetail() {
     this.mediator.moveToState(StateType.DetailPanel);
+  }
+
+  showHideSideNavClicked() {
+    this.mediator.showHideSideNavClicked();
   }
 
   //Mediator Interface Implemantation
@@ -179,6 +196,7 @@ export class AppComponent implements IMediatorImpl, AfterViewInit {
     }
   }
 
+  //Set the start panel
   ngAfterViewInit() {
     this.mediator.moveToState(StateType.MainPanelWithSideNav);
   }
