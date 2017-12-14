@@ -1,3 +1,8 @@
+# https://www.gurustop.net/blog/2016/07/24/3703/angular2-cli-jquery-webpack-protractor
+# https://github.com/angular/angular/issues/7144  (Section meta and pol<fill.ts) -> uncomment all IE9/10/11 Shims (!) + <meta http-equiv="X-UA-Compatible" content="IE=edge" in index.html 
+# The correct order of the script entries in .angular-cli.json (!) -> $ undefined, and others
+
+
 # AngularStateMediator
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.1.

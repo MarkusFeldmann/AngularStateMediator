@@ -29,6 +29,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AEE6730F-687
 		Angular-State-Mediator\src\tsconfig.app.json = Angular-State-Mediator\src\tsconfig.app.json
 		Angular-State-Mediator\src\tsconfig.spec.json = Angular-State-Mediator\src\tsconfig.spec.json
 		Angular-State-Mediator\src\typings.d.ts = Angular-State-Mediator\src\typings.d.ts
+		Angular-State-Mediator\src\vendor.ts = Angular-State-Mediator\src\vendor.ts
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{F2C0EF36-CE2C-4343-BF53-8DEC709685E7}"

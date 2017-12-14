@@ -1,6 +1,9 @@
 import { Component, ViewChild, AfterViewInit } from '@angular/core';
 import { SideNavComponent } from './side-nav/side-nav.component';
 import { RightScreenComponent } from './right-screen/right-screen.component';
+import * as jquery from 'jquery';
+
+declare var jQuery: any;
 
 //The mediator interface
 export interface IMediatorImpl {
