@@ -1,40 +1,13 @@
-<nav class="navbar navbar-light navbar-expand-sm bg-light">
-  <ul class="navbar-nav">
-    <li class="navbar-nav">
-      <a class="navbar-brand">&nbsp;</a>
-    </li>
-    <li class="navbar-nav">
-      <a class="nav-item nav-link active">Home</a>
-    </li>
-    <li class="navbar-nav">
-      <a class="nav-item nav-link">Products</a>
-    </li>
-    <li class="navbar-nav">
-      <a class="nav-item nav-link">About Us</a>
-    </li>
-  </ul>
-</nav>
+<navbar-component></navbar-component>
 
-<div id="mySideNav" class="sidenav">
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Client</a>
-  <a href="#">Contact</a>
-</div>
+<side-nav-component></side-nav-component>
 
-<div id="myRightScreen" class="overlay">
-  <button class="btn button-no-borders" (click)="closeClicked()">
-    <span class="fa fa-chevron-left">></span>
-  </button>
-  <div class="overlay-content">
-    <h1>Page 2</h1>
-  </div>
-</div>
+<rightscreen-component (notifyCloseDetailClicked)='onNotifyRightWindow($event)'></rightscreen-component>
 
 <div id="main" class="main-content-panel">
   <div class="row">
     <div class="col-sm-1">
-      <button class="btn button-no-borders" (click)="showHideSideClicked()">
+      <button class="btn button-no-borders" (click)="closeRightWindow()">
         <span id="show-hide-side-button" class="fa"><</span>
       </button>
     </div>

@@ -48,6 +48,30 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "environments", "environment
 		Angular-State-Mediator\src\environments\environment.ts = Angular-State-Mediator\src\environments\environment.ts
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RightScreen", "RightScreen", "{201395BB-7639-41A1-8DCC-FA93CDFFC9AA}"
+	ProjectSection(SolutionItems) = preProject
+		Angular-State-Mediator\src\app\right-screen\right-screen.component.css = Angular-State-Mediator\src\app\right-screen\right-screen.component.css
+		Angular-State-Mediator\src\app\right-screen\right-screen.component.html = Angular-State-Mediator\src\app\right-screen\right-screen.component.html
+		Angular-State-Mediator\src\app\right-screen\right-screen.component.spec.ts = Angular-State-Mediator\src\app\right-screen\right-screen.component.spec.ts
+		Angular-State-Mediator\src\app\right-screen\right-screen.component.ts = Angular-State-Mediator\src\app\right-screen\right-screen.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NavBar", "NavBar", "{5549DBFE-BB95-458D-AC27-147F606C1F63}"
+	ProjectSection(SolutionItems) = preProject
+		Angular-State-Mediator\src\app\nav-bar\nav-bar.component.css = Angular-State-Mediator\src\app\nav-bar\nav-bar.component.css
+		Angular-State-Mediator\src\app\nav-bar\nav-bar.component.html = Angular-State-Mediator\src\app\nav-bar\nav-bar.component.html
+		Angular-State-Mediator\src\app\nav-bar\nav-bar.component.spec.ts = Angular-State-Mediator\src\app\nav-bar\nav-bar.component.spec.ts
+		Angular-State-Mediator\src\app\nav-bar\nav-bar.component.ts = Angular-State-Mediator\src\app\nav-bar\nav-bar.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SideNav", "SideNav", "{E5C35D2F-CCCC-4FB2-B227-74004C96C874}"
+	ProjectSection(SolutionItems) = preProject
+		Angular-State-Mediator\src\app\side-nav\side-nav.component.css = Angular-State-Mediator\src\app\side-nav\side-nav.component.css
+		Angular-State-Mediator\src\app\side-nav\side-nav.component.html = Angular-State-Mediator\src\app\side-nav\side-nav.component.html
+		Angular-State-Mediator\src\app\side-nav\side-nav.component.spec.ts = Angular-State-Mediator\src\app\side-nav\side-nav.component.spec.ts
+		Angular-State-Mediator\src\app\side-nav\side-nav.component.ts = Angular-State-Mediator\src\app\side-nav\side-nav.component.ts
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -57,6 +81,9 @@ Global
 		{F2C0EF36-CE2C-4343-BF53-8DEC709685E7} = {AEE6730F-687B-4A68-AFFE-66A2DB5534F9}
 		{BA862B42-96E3-41B7-9B4E-D7097DBD4341} = {AEE6730F-687B-4A68-AFFE-66A2DB5534F9}
 		{937E9227-D21B-4808-9397-91D4F784F596} = {AEE6730F-687B-4A68-AFFE-66A2DB5534F9}
+		{201395BB-7639-41A1-8DCC-FA93CDFFC9AA} = {F2C0EF36-CE2C-4343-BF53-8DEC709685E7}
+		{5549DBFE-BB95-458D-AC27-147F606C1F63} = {F2C0EF36-CE2C-4343-BF53-8DEC709685E7}
+		{E5C35D2F-CCCC-4FB2-B227-74004C96C874} = {F2C0EF36-CE2C-4343-BF53-8DEC709685E7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {99E8E454-4ADC-4B6E-A827-868B42EAE0CB}
